@@ -21,11 +21,11 @@ setup(
         'webdataset',
         'dill',
         'pandas',
-        'chumpy @ git+https://github.com/mattloper/chumpy',
+        'chumpy @ git+https://github.com/EdwinKestler/chumpy',
     ],
     extras_require={
         'all': [
-            'detectron2 @ git+https://github.com/facebookresearch/detectron2',
+            'detectron2 @ git+https://github.com/EdwinKestler/detectron2',
         ],
     },
 )
